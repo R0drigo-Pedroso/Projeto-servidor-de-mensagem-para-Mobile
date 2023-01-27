@@ -3,7 +3,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 try {
     $instance = \ExponentPhpSDK\Expo::normalSetup();
-    echo 'Olá luquinhas';
+    echo 'Olá App funcionando';
 } catch (Exception $e) {
     echo 'Test Failed';
 }

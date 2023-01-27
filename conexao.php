@@ -6,7 +6,7 @@ if(isset($_POST['msgButton'])) {
     $mensagem = $_POST["mensagem"];
     
     $channelName = 'news';
-    $recipient= ['ExponentPushToken[4v5SFYFpPpivRa7MRzsT1e]','ExponentPushToken[LlovGzMHJnWvfK2MX7FpmL]' ];
+    $recipient= ['ExponentPushToken[F9GIoVGX90DoaJMNss8fes]','ExponentPushToken[LlovGzMHJnWvfK2MX7FpmL]' ];
     
     // You can quickly bootup an expo instance
     $expo = \ExponentPhpSDK\Expo::normalSetup();
